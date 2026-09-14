@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Git Anya - Elemen Lengkap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+        /* Style Tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        /* Style Formulir */
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        /* Style Tombol */
+        .btn {
+            background-color: #2ecc71;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Latihan Web & Git Anya</h1>
+        <p>Halaman ini berisi komponen dasar HTML untuk bahan latihan version control.</p>
+
+        <!-- Elemen Tabel -->
+        <h2>1. Tabel Daftar Materi</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Materi Git</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>git init & git status</td>
+                    <td>Selesai ✅</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>git add & git commit</td>
+                    <td>Selesai ✅</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>git push ke GitHub</td>
+                    <td>Belum ⏳</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Elemen Formulir & Tombol -->
+        <h2>2. Formulir Kontak</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Alamat Email:</label>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+            </div>
+
+            <!-- Elemen Tombol -->
+            <button type="submit" class="btn">Kirim Data</button>
+        </form>
+    </div>
+
+</body>
+</html>
